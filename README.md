@@ -6,12 +6,6 @@ Repoyu klonlamak için git yüklü olmalı.
 
 Bilgisayarınızda `git` yüklü değilse aşağıdaki komut ile git yükleyebilirsiniz.
 
-Aşağıdaki komut scriptin içinde olup eklentileri yönetmek için kullanılan uygulamadır.
-
-```bash
-sudo apt install gnome-shell-extension-manager -y
-```
-
 ```bash
 sudo apt install git -y
 ```
@@ -35,3 +29,5 @@ Scripti çalıştırmak için aşağıdaki komutu terminale yapıştırın :
 ```bash
 ./install_gnome_extensions.sh
 ```
+
+Daha sonra - [Gnome Extension Web Sitesinden](https://extensions.gnome.org/local/) veya `extension` uygulamasından eklentileri aktif hale getirebilirsiniz.
