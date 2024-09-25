@@ -6,19 +6,25 @@ Repoyu klonlamak için git yüklü olmalı.
 
 Bilgisayarınızda `git` yüklü değilse aşağıdaki komut ile git yükleyebilirsiniz.
 
+Aşağıdaki komut scriptin içinde olup eklentileri yönetmek için kullanılan uygulamadır.
+
+```bash
+sudo apt install gnome-shell-extension-manager -y
+```
+
 ```bash
 sudo apt install git -y
 ```
 
-Aşağıdaki komut scriptin içinde olup eklentileri kullanabilmek için kuruluyor
+Aşağıdaki komut scriptin içinde olup eklentileri kullanabilmek için kuruluyor.
 
 ```bash
-sudo apt install  gnome-browser-connector -y
+sudo apt install gnome-browser-connector -y
 ```
 
-Scripti klonlamak için aşağıdaki komutu terminale yapıştırın:
+Scripti klonlamak için aşağıdaki komutu terminale yapıştırın :
 
-> **Uyarı!**:Script çalıştıktan sonra bilgisayarı yeniden başlatacaktır.
+> **Uyarı!**: Script çalıştıktan sonra bilgisayarı yeniden başlatacaktır.
 
 ```bash
 git clone https://github.com/kaankaltakkiran/Gnome_extension_installaion.git && cd Gnome_extension_installaion

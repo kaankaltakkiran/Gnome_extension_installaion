@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Gerekli paketleri yükleyin (gnome-browser-connector)
-echo "Gerekli paket yükleniyor:gnome-browser-connector"
+echo "Gerekli paketler yükleniyor:gnome-browser-connector ve gnome-shell-extension-manager"
 sudo apt update
-sudo apt install  gnome-browser-connector -y
+sudo apt install gnome-shell-extension-manager gnome-browser-connector -y
 
 # GNOME Shell version number
 GNOME_VERSION=$(gnome-shell --version | awk '{print $3}' | cut -d. -f1,2)
