@@ -2,7 +2,9 @@
 
 Bu script `my_extension.txt` dosyasındaki scriptleri yükler.
 
-Repoyu klonlamak için git yüklü olmalı. Bilgisayarınızda `git` yüklü değilse aşağıdaki komut ile git yükleyebilirsiniz.
+Repoyu klonlamak için git yüklü olmalı.
+
+Bilgisayarınızda `git` yüklü değilse aşağıdaki komut ile git yükleyebilirsiniz.
 
 ```bash
 sudo apt install git -y
@@ -11,7 +13,7 @@ sudo apt install git -y
 Aşağıdaki komut scriptin içinde olup eklentileri kullanabilmek için kuruluyor
 
 ```bash
-sudo gnome-browser-connector -y
+sudo apt install  gnome-browser-connector -y
 ```
 
 Scripti klonlamak için aşağıdaki komutu terminale yapıştırın:
