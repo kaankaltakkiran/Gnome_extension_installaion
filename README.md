@@ -1,10 +1,8 @@
 ## Gnome Eklenti Yükleme Rehberi
 
-Bu script `my_extension.txt` dosyasındaki scriptleri yükler.
+Bu script `my_extension.txt` dosyasındaki `gnome eklentilerini` yükler.
 
-Repoyu klonlamak için git yüklü olmalı.
-
-Bilgisayarınızda `git` yüklü değilse aşağıdaki komut ile git yükleyebilirsiniz.
+Repoyu klonlamak için git yüklü olmalı. Bilgisayarınızda `git` yüklü değilse aşağıdaki komut ile git yükleyebilirsiniz.
 
 ```bash
 sudo apt install git -y
@@ -30,4 +28,4 @@ Scripti çalıştırmak için aşağıdaki komutu terminale yapıştırın :
 ./install_gnome_extensions.sh
 ```
 
-Daha sonra - [Gnome Extension Web Sitesinden](https://extensions.gnome.org/local/) veya `extension` uygulamasından eklentileri aktif hale getirebilirsiniz.
+Daha sonra [Gnome Extension Web Sitesinden](https://extensions.gnome.org/local/) veya `extension` uygulamasından eklentileri aktif hale getirebilirsiniz.
