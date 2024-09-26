@@ -24,7 +24,7 @@ Repoyu klonlamak için git yüklü olmalı. Bilgisayarınızda `git` yüklü de�
 sudo apt install git -y
 ```
 
-2. ### Scripti Klonlamak
+2. Scripti Klonlamak
 
 Scripti klonlamak için aşağıdaki komutu terminale yapıştırın :
 
@@ -32,7 +32,7 @@ Scripti klonlamak için aşağıdaki komutu terminale yapıştırın :
 git clone https://github.com/kaankaltakkiran/Gnome_extension_installaion.git && cd Gnome_extension_installaion
 ```
 
-3. ### Scripti Çalıştırmak
+3. Scripti Çalıştırmak
 
 Scripti çalıştırmak için aşağıdaki komutu terminale yapıştırın :
 
@@ -42,6 +42,6 @@ Scripti çalıştırmak için aşağıdaki komutu terminale yapıştırın :
 
 > **Uyarı!**: Script çalıştıktan sonra bilgisayarı yeniden başlatacaktır.
 
-4. ### Eklentileri Etkin Hale Getirmek
+4. Eklentileri Etkin Hale Getirmek
 
 Daha sonra [Gnome Extension Web Sitesinden](https://extensions.gnome.org/local/) veya `extension` uygulamasından eklentileri aktif hale getirebilirsiniz.
