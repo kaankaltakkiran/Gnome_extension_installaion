@@ -16,7 +16,7 @@ sudo apt install gnome-browser-connector -y
 
 ## Yükleme Adımları
 
-1. Repoyu Klonlamak İçin Git Yüklemek
+1. ### Repoyu Klonlamak İçin Git Yüklemek
 
    Repoyu klonlamak için git yüklü olmalı. Bilgisayarınızda `git` yüklü değilse aşağıdaki komut ile git yükleyebilirsiniz.
 
@@ -24,17 +24,15 @@ sudo apt install gnome-browser-connector -y
 sudo apt install git -y
 ```
 
-2. Scripti Klonlamak
+2. ### Scripti Klonlamak
 
 Scripti klonlamak için aşağıdaki komutu terminale yapıştırın :
-
-> **Uyarı!**: Script çalıştıktan sonra bilgisayarı yeniden başlatacaktır.
 
 ```bash
 git clone https://github.com/kaankaltakkiran/Gnome_extension_installaion.git && cd Gnome_extension_installaion
 ```
 
-3. Scripti Çalıştırmak
+3. ### Scripti Çalıştırmak
 
 Scripti çalıştırmak için aşağıdaki komutu terminale yapıştırın :
 
@@ -42,6 +40,8 @@ Scripti çalıştırmak için aşağıdaki komutu terminale yapıştırın :
 ./install_gnome_extensions.sh
 ```
 
-4. Eklentileri Etkin Hale Getirmek
+> **Uyarı!**: Script çalıştıktan sonra bilgisayarı yeniden başlatacaktır.
+
+4. ### Eklentileri Etkin Hale Getirmek
 
 Daha sonra [Gnome Extension Web Sitesinden](https://extensions.gnome.org/local/) veya `extension` uygulamasından eklentileri aktif hale getirebilirsiniz.
