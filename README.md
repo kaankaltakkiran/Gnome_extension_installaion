@@ -2,6 +2,12 @@
 
 Bu script `my_extension.txt` dosyasındaki `gnome eklentilerini` yükler.
 
+Kullandığınz eklentileri Aşağıdaki komut ile listeleyebilirsiniz.
+
+```bash
+gnome-extensions list
+```
+
 Repoyu klonlamak için git yüklü olmalı. Bilgisayarınızda `git` yüklü değilse aşağıdaki komut ile git yükleyebilirsiniz.
 
 ```bash
