@@ -16,9 +16,9 @@ sudo apt install gnome-browser-connector -y
 
 ## Yükleme Adımları
 
-1. ### Repoyu Klonlamak İçin Git Yüklemek
+1.  Repoyu Klonlamak İçin Git Yüklemek
 
-   Repoyu klonlamak için git yüklü olmalı. Bilgisayarınızda `git` yüklü değilse aşağıdaki komut ile git yükleyebilirsiniz.
+Repoyu klonlamak için git yüklü olmalı. Bilgisayarınızda `git` yüklü değilse aşağıdaki komut ile git yükleyebilirsiniz.
 
 ```bash
 sudo apt install git -y
