@@ -54,5 +54,14 @@ for EXTENSION in "${EXTENSIONS[@]}"; do
 done
 
 # Yükleme tamamlandıktan sonra bilgisayarı yeniden başlat
-echo "Yüklemeler tamamlandı, bilgisayar yeniden başlatılıyor."
-sudo reboot
+echo "--------------------------------------------"
+echo "Değişikiiklerin etkili olması için bilgisayarınızı yeniden başlatın."
+echo "--------------------------------------------------------------"
+read -p "Bilgisayarınızı yeniden başlatmak ister misiniz? (E/H): " REPLY
+if [ "$REPLY" == "E" ] || [ "$REPLY" == "e" ]; then
+    sudo reboot
+fi
+else
+    echo "Yeniden başlatma işlemi iptal edildi."
+fi
+
